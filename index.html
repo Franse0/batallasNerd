@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>integrador</title>
+</head>
+<body>
+    
+    <!-- Header -->
+    <header class="header">
+        <img src="./assets/logo-nerd.png" alt="Logo" class="logo">
+
+        <i class="fa-solid fa-bars"></i>
+
+        <nav class="nav" id="nav">
+            <ul class="nav-links">
+                <li><a href="#inicio" class="nav-item">Inicio</a></li>
+                <li><a href="#nerds" class="nav-item">Nerds</a></li>
+                <li><a href="#contacto" class="nav-item">Contacto</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+
+    <!-- Main -->
+ <main>
+        <section id="inicio" class="inicio">
+            <div class="presentacion-container">
+                <h1>Bienvenido al mundo de batallas <span class="span-nerd">Nerd</span></h1>
+                <div>
+                    <P><span class="span-nerd">Nerd</span> es tu mundo! Nerd es una pagina hecha por programadores para programadores con el objetivo de que vos en tu version nerd muestres de quien manda!!. </P>
+                    <p>Competi en retos de programacion con tus amigos y con gente de todo el mundo. </p>
+                </div> 
+                <h3>Crea tu Programador y empeza a competir</H3>
+                    <button class="btn-nerd"> Crear mi NERD</button>
+            </div>
+
+            <div class="presentacion-card-container">
+                <div class="card">
+                    <img src="./assets/avatarA.png" alt="Avatar" width="500px" id="img-inicio">
+                    <h2>FranceDev</h2>
+                    <span>FullStack</span>
+                    <div class="habilidades">
+                        <img src="./assets/logos/java.png" alt="">
+                        <img src="./assets/logos/js.png" alt="">
+                        <img src="./assets/logos/typescript.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="section-crear-personaje">
+            <h2>!Crea tu programador con tus habilidades!</h2>
+            <div class="div-nerd">
+            <div class="formulario-container">
+                <form class="form" id="form">
+                    <div>
+                        <div class="form-input">
+                            <label for="nombre">Nombre</label>
+                            <br>
+                            <input type="text" id="nombre" >
+                        </div>
+                        <div class="form-input">
+                            <label for="edad">Edad</label>
+                            <br>
+                            <input type="number" id="edad" >
+                        </div>
+                    </div>
+                    <div class="form-input">
+                            <span>Escoge tus skilles</span>
+                    <div class="div">
+                            <label for="java">Java</label>
+                            <input type="checkbox" id="java" >
+                            <label for="js">Js</label>
+                            <input type="checkbox" id="js" >
+                            <label for="python">Python</label>
+                            <input type="checkbox" id="python" >
+                            <label for="kotlin">Kotlin</label>
+                            <input type="checkbox" id="kotlin" >
+                            <br>
+                            <label for="php">Php</label>
+                            <input type="checkbox" id="php" >
+                            <label for="ruby">Ruby</label>
+                            <input type="checkbox" id="ruby" >
+                            <label for="typescript">Ts</label>
+                            <input type="checkbox" id="typescript" >
+                    </div>
+                    </div>
+
+                    <div class="form-input">
+                        <span>¿Qué tipo de progrmador sos?</span>
+                        <div class="">
+                            <label for="frontend">Frontend</label>
+                            <input type="radio" name="tipo" id="frontend" value="frontend">
+                            <label for="backend">Backend</label>
+                            <input type="radio" name="tipo" id="backend" value="backend">
+                            <label for="fullstack">FulllStack</label>
+                            <input type="radio" name="tipo" id="fullstack" value="fullstack">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-nerd">Crear Nerd</button>
+                </form>
+            </div>
+            <div class="resultado-container  no-mostrar" id="resultado-container">
+                <div class="resultado" id="resultado"></div>
+            </div>
+        </div>
+        </div>
+
+         <section class="section-personajes" id="nerds">
+            <h2>Todos los personajes</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/avatarA.png" alt="Avatar" width="500px">
+                    <h2>FranceDev</h2>
+                    <span>FullStack</span>
+                    <div class="habilidades">
+                        <i class="fa-brands fa-java"></i>
+                        <i class="fa-brands fa-python"></i>
+                        <i class="fa-brands fa-js"></i>
+                        <i class="fa-brands fa-php"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/avatarA.png" alt="Avatar" width="500px">
+                    <h2>FranceDev</h2>
+                    <span>FullStack</span>
+                    <div class="habilidades">
+                        <i class="fa-brands fa-java"></i>
+                        <i class="fa-brands fa-python"></i>
+                        <i class="fa-brands fa-js"></i>
+                        <i class="fa-brands fa-php"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/avatarA.png" alt="Avatar" width="500px">
+                    <h2>FranceDev</h2>
+                    <span>FullStack</span>
+                    <div class="habilidades">
+                        <i class="fa-brands fa-java"></i>
+                        <i class="fa-brands fa-python"></i>
+                        <i class="fa-brands fa-js"></i>
+                        <i class="fa-brands fa-php"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/avatarA.png" alt="Avatar" width="500px">
+                    <h2>FranceDev</h2>
+                    <span>FullStack</span>
+                    <div class="habilidades">
+                        <i class="fa-brands fa-java"></i>
+                        <i class="fa-brands fa-python"></i>
+                        <i class="fa-brands fa-js"></i>
+                        <i class="fa-brands fa-php"></i>
+                    </div>
+                </div>
+            </div>
+        </section> 
+    </main>  
+
+
+    <footer class="footer" id="contacto">
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-solid fa-envelope"></i>
+    </footer>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
